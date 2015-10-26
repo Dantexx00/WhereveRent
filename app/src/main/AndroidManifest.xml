@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.edu.udea.cmovil.gr02.whereverent" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+//Internet
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+//Estado de la red
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+//Ubicacion fina
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+//Ubicacion no tan fina
+    <uses-permission android:name="ANDROID.PERMISSION.WRITE_EXTERNAL_STORAGE" />
+//Escribir en el almacenamiento externo para no estar bajando datos repetidos de los mapas
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA07STOiOQw6d36az1XsuhO8ZjPlRFV6fc" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BusquedaPref"
+            android:label="@string/title_activity_busqueda_pref" >
+        </activity>
+        <activity
+            android:name=".BusquedaGps"
+            android:label="@string/title_activity_busqueda_gps" >
+        </activity>
+        <activity
+            android:name=".SubActivity"
+            android:label="@string/title_activity_sub" >
+        </activity>
+        <activity
+            android:name=".MisInmuebles"
+            android:label="@string/title_activity_mis_inmuebles" >
+        </activity>
+        <activity
+            android:name=".InmuebleDetalles"
+            android:label="@string/title_activity_inmueble_detalles" >
+        </activity>
+        <activity
+            android:name=".AddInmueble"
+            android:label="@string/title_activity_add_inmueble" >
+        </activity>
+        <activity
+            android:name=".SubActividadGps"
+            android:label="@string/title_activity_sub_actividad_gps" >
+        </activity>
+    </application>
+
+</manifest>

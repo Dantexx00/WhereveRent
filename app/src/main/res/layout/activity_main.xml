@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    //Layout principal que contiene los 3 botones que llevan a las funciones principales de la app
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_gps"
+        android:text="@string/title_activity_busqueda_gps"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_pref"
+        android:text="@string/title_activity_busqueda_pref"
+        android:layout_below="@id/button_gps"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_mis_inmuebles"
+        android:text="@string/title_activity_mis_inmuebles"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_pref"/>
+</RelativeLayout>

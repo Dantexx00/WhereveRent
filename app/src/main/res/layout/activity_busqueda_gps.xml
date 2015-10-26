@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.udea.cmovil.gr02.whereverent.BusquedaGps">
+    //Layout que permite visualizar el GoogleMap
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mi_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

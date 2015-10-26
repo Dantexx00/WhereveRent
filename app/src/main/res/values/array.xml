@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Ciudades">
+        <item>Medellin</item>
+        <item>Envigado</item>
+    </string-array>
+    <string-array name="tipo">
+        <item>Casa</item>
+        <item>Apartamento</item>
+        <item>Local</item>
+        <item>Finca</item>
+    </string-array>
+    <string-array name="area">
+        <item>20-50</item>
+        <item>50-70</item>
+        <item>70-100</item>
+        <item>100-150</item>
+        <item>150-200</item>
+        <item>200-300</item>
+    </string-array>
+    <string-array name="modo">
+        <item>Arriendo</item>
+        <item>Venta</item>
+    </string-array>
+</resources>
