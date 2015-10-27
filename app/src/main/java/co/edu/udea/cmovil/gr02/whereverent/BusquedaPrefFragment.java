@@ -10,7 +10,7 @@ import android.widget.Spinner;
 
 //FRagmento usado por BusquedaPref
 public class BusquedaPrefFragment extends Fragment {
-    Spinner ciudades,tipo,area,modo;
+    private Spinner ciudades,tipo,area,modo;
     public BusquedaPrefFragment() {
     }
     @Override
