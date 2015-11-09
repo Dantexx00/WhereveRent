@@ -34,32 +34,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BusquedaPref"
-            android:label="@string/title_activity_busqueda_pref" >
-        </activity>
-        <activity
-            android:name=".BusquedaGps"
-            android:label="@string/title_activity_busqueda_gps" >
-        </activity>
-        <activity
-            android:name=".SubActivity"
-            android:label="@string/title_activity_sub" >
-        </activity>
-        <activity
-            android:name=".MisInmuebles"
-            android:label="@string/title_activity_mis_inmuebles" >
-        </activity>
-        <activity
             android:name=".InmuebleDetalles"
             android:label="@string/title_activity_inmueble_detalles" >
         </activity>
         <activity
-            android:name=".AddInmueble"
+            android:name=".AgregarInmuebleActivity"
             android:label="@string/title_activity_add_inmueble" >
         </activity>
         <activity
             android:name=".SubActividadGps"
             android:label="@string/title_activity_sub_actividad_gps" >
+        </activity>
+        <activity
+            android:name=".SubActivity"
+            android:label="@string/title_activity_sub" >
+        </activity>
+        <activity android:name=".BusquedaGpsActivity"
+            android:label="@string/title_activity_busqueda_gps">
+            </activity>
+        <activity android:name=".BusquedaPrefActivity"
+            android:label="@string/title_activity_busqueda_pref"
+            ></activity>
+        <activity android:name=".MisInmueblesActivity"
+            android:label="@string/title_activity_mis_inmuebles">
+
         </activity>
     </application>
 

@@ -18,8 +18,8 @@ public class SubActividadGps extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                //Intent que permite volver a la BusquedaGps
-                startActivity(new Intent(this, BusquedaGps.class)
+                //Intent que permite volver a la BusquedaGpsActivity
+                startActivity(new Intent(this, BusquedaGpsActivity.class)
                         .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                 return true;
             default:

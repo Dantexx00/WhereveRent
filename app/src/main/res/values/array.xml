@@ -23,6 +23,7 @@
         <item>Venta</item>
     </string-array>
     <string-array name="opciones">
+        <item>@string/title_activity_main</item>
         <item>@string/title_activity_busqueda_gps</item>
         <item>@string/title_activity_busqueda_pref</item>
         <item>@string/title_activity_mis_inmuebles</item>
