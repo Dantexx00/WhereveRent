@@ -80,6 +80,9 @@ public class BusquedaGpsActivity extends SubActivity {
         }
         //CReo que aqui esta la clave para que no se ponga la casita si no hemos guardado.
         marker=googleMap.addMarker(options);
-        startActivity(new Intent(this,AgregarInmuebleActivity.class));
+        Intent intent=new Intent(this,AgregarInmuebleActivity.class);
+        intent.putExtra("latitud", lat);
+        intent.putExtra("longitud",lng);
+        startActivity(intent);
     }
 }

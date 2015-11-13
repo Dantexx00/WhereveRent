@@ -43,7 +43,7 @@ public class MainActivity extends SubActivity implements View.OnClickListener {
                 startActivity(new Intent(this, BusquedaPrefActivity.class));
                 break;
             case R.id.home_btn3:
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, AgregarInmuebleActivity.class));
                 break;
             default:
                 break;
