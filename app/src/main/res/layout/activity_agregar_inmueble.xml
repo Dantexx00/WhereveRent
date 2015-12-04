@@ -7,23 +7,7 @@
     tools:context="co.edu.udea.cmovil.gr02.whereverent.AgregarInmuebleActivity"
     android:orientation="vertical">
     //Layout para el formulario que agregara nuevos inmuebles
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_weight="1">
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="@string/atributo1"
-            android:layout_weight="1"/>
-        <Spinner
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/ciudades_spinner">
 
-        </Spinner>
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -37,7 +21,7 @@
         <EditText
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:id="@+id/precio_max_edit_text"
+            android:id="@+id/precio_max_add"
             android:inputType="number">
 
         </EditText>
@@ -55,7 +39,7 @@
         <Spinner
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:id="@+id/tipo_spinner">
+            android:id="@+id/tipo_spinner_add">
 
         </Spinner>
     </LinearLayout>
@@ -72,7 +56,7 @@
         <Spinner
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:id="@+id/area_spinner">
+            android:id="@+id/area_spinner_add">
 
         </Spinner>
     </LinearLayout>
@@ -89,7 +73,7 @@
         <Spinner
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:id="@+id/modo_spinner">
+            android:id="@+id/modo_spinner_add">
 
         </Spinner>
     </LinearLayout>
@@ -106,7 +90,7 @@
         <EditText
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:id="@+id/contacto"
+            android:id="@+id/contacto_add"
             android:inputType="phone"/>
     </LinearLayout>
     <LinearLayout
@@ -122,7 +106,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:id="@+id/descripcion" />
+            android:id="@+id/descripcion_add" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

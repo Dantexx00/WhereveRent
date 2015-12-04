@@ -6,7 +6,6 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 //Fragment que mostrara las fotos del inmueble, sera llamado desde inmuebleDetalles
 public class DetallesFotosFragment extends Fragment {

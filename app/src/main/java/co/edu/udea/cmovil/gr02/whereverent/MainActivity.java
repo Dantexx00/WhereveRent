@@ -15,13 +15,16 @@ public class MainActivity extends SubActivity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
         //Se inicializa el navigation drawer con este metodo de la clase subactivity
         super.initNavigation(R.id.drawer_layout_main);
-        //SE conectan los botones y se asignan como onClickListener
-        btn1=(Button)findViewById(R.id.home_btn1);
-        btn2=(Button)findViewById(R.id.home_btn2);
-        btn3=(Button)findViewById(R.id.home_btn3);
-        btn1.setOnClickListener(this);
-        btn2.setOnClickListener(this);
-        btn3.setOnClickListener(this);
+        //Se conectan los botones y se asignan como onClickListener
+        System.out.println(savedInstanceState==null);
+        if(savedInstanceState==null) {
+            btn1 = (Button) findViewById(R.id.home_btn1);
+            btn2 = (Button) findViewById(R.id.home_btn2);
+            btn3 = (Button) findViewById(R.id.home_btn3);
+            btn1.setOnClickListener(this);
+            btn2.setOnClickListener(this);
+            btn3.setOnClickListener(this);
+        }
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

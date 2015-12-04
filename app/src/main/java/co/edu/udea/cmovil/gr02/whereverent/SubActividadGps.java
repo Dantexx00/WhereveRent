@@ -4,9 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.MenuItem;
+
 //Actividad creada para que extiendan las actividades generadas desde la BUsquedaGps
 public class SubActividadGps extends Activity {
-
+    private double latitud;
+    private double longitud;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,12 +21,26 @@ public class SubActividadGps extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 //Intent que permite volver a la BusquedaGpsActivity
-                startActivity(new Intent(this, BusquedaGpsActivity.class)
-                        .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                onBackPressed();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
+    public double getLatitud() {
+        return latitud;
+    }
+
+    public void setLatitud(double latitud) {
+        this.latitud = latitud;
+    }
+
+    public double getLongitud() {
+        return longitud;
+    }
+
+    public void setLongitud(double longitud) {
+        this.longitud = longitud;
+    }
 }

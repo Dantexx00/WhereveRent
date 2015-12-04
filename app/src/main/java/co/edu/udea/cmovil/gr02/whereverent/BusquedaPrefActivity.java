@@ -2,11 +2,13 @@ package co.edu.udea.cmovil.gr02.whereverent;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 //Actividad busqueda por preferencias
 public class BusquedaPrefActivity extends SubActivity {
     private Spinner ciudades,tipo,area,modo;
+    private Button buscar;
     public BusquedaPrefActivity() {
     }
     @Override
@@ -20,6 +22,7 @@ public class BusquedaPrefActivity extends SubActivity {
         tipo=(Spinner)findViewById(R.id.tipo_spinner);
         area=(Spinner)findViewById(R.id.area_spinner);
         modo=(Spinner)findViewById(R.id.modo_spinner);
+        buscar=(Button)findViewById(R.id.button_bus_pref);
         //Se crea un adapter para cada spinner el cual se le debe asignar un array del archivo array.xml de los values el cual sera las opciones del spinner
         ArrayAdapter<CharSequence> adapter=ArrayAdapter.createFromResource(this, R.array.Ciudades, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

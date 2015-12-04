@@ -7,7 +7,7 @@
     <string name="title_activity_mis_inmuebles">Mis Inmuebles</string>
     <string name="title_activity_inmueble_detalles">InmuebleDetalles</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="title_activity_add_inmueble">Añadir inmueble</string>
     <string name="title_activity_sub_actividad_gps">SubActividadGps</string>
     <string name="atributo1">Ciudad</string>
@@ -20,7 +20,8 @@
     <string name="drawer_open">Open Navigation Drawer</string>
     <string name="drawer_close">Close Navigation Drawer</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_sub">SubActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
